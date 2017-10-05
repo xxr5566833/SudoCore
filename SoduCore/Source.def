@@ -1,0 +1,6 @@
+LIBRARY
+EXPORTS
+generate_m
+generate_r
+solve_s
+dlxFind
