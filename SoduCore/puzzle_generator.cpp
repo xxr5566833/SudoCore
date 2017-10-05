@@ -1,5 +1,5 @@
-#include "puzzle_generator.h"
 #include "stdafx.h"
+#include "puzzle_generator.h"
 #include "dlx.h"
 #include <random>
 #include <assert.h>

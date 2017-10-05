@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoduCore", "SoduCore\SoduCore.vcxproj", "{7DABC656-3C5E-499D-99F8-FFE0CCF63D8F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestSoduCore", "UnitTestSoduCore\UnitTestSoduCore.vcxproj", "{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{7DABC656-3C5E-499D-99F8-FFE0CCF63D8F}.Release|x64.Build.0 = Release|x64
 		{7DABC656-3C5E-499D-99F8-FFE0CCF63D8F}.Release|x86.ActiveCfg = Release|Win32
 		{7DABC656-3C5E-499D-99F8-FFE0CCF63D8F}.Release|x86.Build.0 = Release|Win32
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Debug|x64.ActiveCfg = Debug|x64
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Debug|x64.Build.0 = Debug|x64
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Debug|x86.Build.0 = Debug|Win32
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Release|x64.ActiveCfg = Release|x64
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Release|x64.Build.0 = Release|x64
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Release|x86.ActiveCfg = Release|Win32
+		{1CB90941-7CB6-4E7D-8CD2-E6C6E4A32851}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
