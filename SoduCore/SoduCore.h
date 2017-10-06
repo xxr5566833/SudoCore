@@ -10,8 +10,8 @@
 #define SODUCORE_API __declspec(dllimport)
 #endif
 
-SODUCORE_API void generate_m(int number, int mode, int result[][81]);
-SODUCORE_API void generate_r(int number, int lower, int upper, bool unique, int result[][81]);
+SODUCORE_API void generate_m(int number, int mode, int **result);
+SODUCORE_API void generate_r(int number, int lower, int upper, bool unique, int **result);
 SODUCORE_API bool solve_s(int *puzzle, int *solution);
 
 SODUCORE_API bool dlxFind(int N, bool random, void ResDealing(const int *Res));

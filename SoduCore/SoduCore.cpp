@@ -6,12 +6,12 @@
 #include "puzzle_generator.h"
 #include "dlx.h"
 
-SODUCORE_API void generate_m(int number, int mode, int result[][81])
+SODUCORE_API void generate_m(int number, int mode, int **result)
 {
     generate(number, mode, result);
 }
 
-SODUCORE_API void generate_r(int number, int lower, int upper, bool unique, int result[][81])
+SODUCORE_API void generate_r(int number, int lower, int upper, bool unique, int **result)
 {
     generate(number, lower, upper, unique, result);
 }
